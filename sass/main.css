@@ -1,0 +1,427 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  background: #efefef;
+}
+
+.top {
+  background-image: url(../img/back.png);
+  background-repeat: no-repeat;
+  height: 620px;
+}
+.top .header {
+  padding-top: 27px;
+  text-align: center;
+}
+.top .header .navbar .collapse {
+  margin-left: 50px;
+}
+.top .header .navbar .collapse .navbar-nav .nav-item {
+  margin-left: 10px;
+}
+.top .header .navbar .collapse .navbar-nav .nav-item .nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1A0A03;
+}
+.top .header .navbar .collapse .navbar-nav .active {
+  color: #EE5514 !important;
+}
+.top .header .navbar .collapse .form-inline button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  background-color: #EE5514;
+  color: #fff;
+  padding: 5px 20px;
+}
+.top .header-bottom .row .left-half {
+  margin-top: 80px;
+}
+.top .header-bottom .row .left-half h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 61px;
+  line-height: 120%;
+}
+.top .header-bottom .row .left-half h1 span {
+  color: #EE5514;
+}
+.top .header-bottom .row .left-half .subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  margin-top: 10px;
+}
+.top .header-bottom .row .right-half img {
+  background-image: url(../img/border.svg);
+  background-repeat: no-repeat;
+  background-position: 100px;
+}
+.top .header-bottom .row .bottom-half {
+  position: absolute;
+  left: 230px;
+  top: 573px;
+}
+.top .header-bottom .row .bottom-half .line {
+  border-left: 1px solid #EE5514;
+}
+.top .header-bottom .row .bottom-half .brand .title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 0;
+}
+.top .header-bottom .row .bottom-half .brand .subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.top .header-bottom .row .bottom-half .form-inline button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  background-color: #EE5514;
+  color: #fff;
+  padding: 5px 20px;
+}
+
+.main-1 {
+  margin-top: 120px;
+}
+.main-1 .virtual_context_text-1 {
+  margin-top: 80px;
+}
+.main-1 .virtual_context_text-1 .text_1 {
+  margin-top: 66px;
+  margin-left: 80px;
+}
+.main-1 .virtual_context_text-1 .text_1 .content_1 {
+  font-family: Source Serif Pro;
+  color: #EE5514;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+.main-1 .virtual_context_text-1 .text_1 .content_2 {
+  font-family: Source Serif Pro;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.main-1 .virtual_context_text-1 .text_1 .content_3 {
+  font-family: Poppins;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 15px;
+}
+.main-1 .history {
+  margin-right: 180px;
+  margin-top: 60px;
+}
+.main-1 .history .history-images {
+  position: relative;
+}
+.main-1 .history .img-1 {
+  position: absolute;
+  z-index: 0;
+  top: -84px;
+  left: 111px;
+}
+.main-1 .history .img-2 {
+  position: absolute;
+  z-index: 999;
+  top: -32px;
+  left: 43px;
+}
+
+.main-2 {
+  margin-top: 140px;
+}
+.main-2 .content {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.main-2 .content .content_1 {
+  font-family: Source Serif Pro;
+  color: #EE5514;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+.main-2 .card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.main-2 .box-1 .box-writing {
+  background-color: #fff;
+  padding: 30px 0 20px 0;
+}
+.main-2 .box-1 .card-header {
+  background-color: #fff;
+  padding: 0;
+  border: 1px solid white;
+}
+.main-2 .box-writing-1 .text-box {
+  font-family: Source Serif Pro;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.main-2 .box-writing-1 .box-text-1 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 15px;
+}
+.main-2 .box-writing-1 .card-footer {
+  padding: 0;
+  background-color: #fff;
+  margin-top: 15px;
+}
+.main-2 .box-writing-1 .repit-01 {
+  color: #EE5514;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.main-3 {
+  margin-top: 120px;
+}
+.main-3 .content {
+  padding-bottom: 20px;
+}
+.main-3 .content .content_1 {
+  font-family: Source Serif Pro;
+  color: #EE5514;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+.main-3 .navigate .categories p:not(:first-child) {
+  margin-left: 25px;
+}
+.main-3 .navigate .categories p:not(:first-child):hover {
+  color: #EE5514 !important;
+}
+.main-3 .row .col-3 .card .card-header {
+  padding: 0;
+}
+.main-3 .row .col-3 .card .card-header img {
+  width: 100%;
+  height: auto;
+}
+.main-3 .row .col-3 .card .card-body .form-inline button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  background-color: #EE5514;
+  color: #fff;
+  padding: 5px 20px;
+}
+
+.main-4 .img-01 {
+  margin-left: 150px;
+}
+.main-4 .virtik-001 .virtual-cort {
+  margin-left: 100px;
+}
+.main-4 .vor .egri {
+  margin-left: 100px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.main-4 .virtual-1 {
+  font-family: Source Serif Pro;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 30px;
+}
+.main-4 .virtual-4 {
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+.main-4 .qool-2 {
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 130px;
+  margin-top: 50px;
+}
+.main-4 .qol {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.main-4 .virtual-2 {
+  font-family: Source Serif Pro;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 100px;
+}
+.main-4 .virtual-qol-01 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.main-4 .qol-input {
+  margin-top: 40px;
+}
+.main-4 .qol-input input {
+  width: 70%;
+  height: 44px;
+  border-radius: 0;
+}
+.main-4 .qol-input button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  background-color: #EE5514;
+  color: #fff;
+  padding: 5px 20px;
+}
+.main-4 .qo0l h4 {
+  padding: 15px 30px 15px 30px;
+}
+
+footer {
+  padding-top: 35px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FEF8F6;
+  color: #1A0A03;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.li-001 {
+  padding: 0px;
+  margin: 0;
+}
+
+.footer li {
+  line-height: 2em;
+}
+
+.lew {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.lew > * {
+  flex: 1 50%;
+  margin-right: 1.25em;
+}
+
+form {
+  border: 1px solid #f1f1f1;
+}
+
+.container {
+  padding: 20px;
+}
+
+input[type=text], input[type=submit] {
+  width: 40%;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.inp-01 {
+  padding: 10px 0 10px 0;
+}
+
+.writing-01 {
+  background-color: #EE5514;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 8px;
+}
+
+input[placeholder] {
+  text-align: center;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 600px) {
+  .lew > * {
+    flex: 1;
+  }
+}
+@media (max-width: 600px) {
+  .footer {
+    padding: 15px;
+  }
+}/*# sourceMappingURL=main.css.map */
